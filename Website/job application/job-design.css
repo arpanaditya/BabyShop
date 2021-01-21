@@ -1,0 +1,57 @@
+body {
+
+    background-image: url("file:///D:/Aditya/Hackathon/Website/Img/nanny.png");
+    background-size: contain;
+}
+
+
+
+
+.application{
+    background-color: aliceblue;
+    margin:20px 450px;
+    line-height: 2.8;
+    text-align: center;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+nav {
+    flex:1;
+   text-align: right;
+   
+}
+
+nav ul {
+    display: inline-block;
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: #555;
+}
+
+.container{
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: spsce-around;
+}

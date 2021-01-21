@@ -1,0 +1,87 @@
+Body {  
+  font-family: Calibri, Helvetica, sans-serif;  
+  background-color: pink;  
+}  
+button {   
+       background-color: #abeb45;   
+       width: 100%;  
+        color: rgb(245, 28, 12);   
+        padding: 15px;   
+        margin: 10px 0px;   
+        border: none;   
+        cursor: pointer;   
+}   
+form {   
+        border: 3px solid #f1f1f1;   
+    }   
+input[type=text], input[type=password] {   
+        width: 100%;   
+        margin: 8px 0;  
+        padding: 12px 20px;   
+        display: inline-block;   
+        border: 2px solid green;   
+        box-sizing: border-box;   
+}  
+.
+button:hover {   
+        opacity: 0.7;   
+}   
+.cancelbtn {   
+        width: auto;   
+        padding: 10px 18px;  
+        margin: 10px 5px;  
+}   
+        
+     
+.container {   
+        padding: 25px;   
+        background-color: lightblue;  
+}  
+
+body {
+    background-color: rgb(92, 218, 42);
+    margin:20px 450px;
+    line-height: 1;
+}
+
+header {
+    font-size: xx-large;
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 150px;
+
+}
+
+p {
+    text-align: center;
+    font-size: x-large;
+    margin-top: 100px;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+nav {
+    flex:1;
+   text-align: center;
+   
+}
+
+nav ul {
+    display: inline-block;
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline-flexbox;
+    margin-right: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: #555;
+}
