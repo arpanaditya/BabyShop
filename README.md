@@ -11,7 +11,7 @@
 - This project is open for contribution and development. 
 
 ### Created By
-Name: Aditya Arpan Sahoo
-Branch and Year: Computer Science and Engineering, Second Year
-Registration Number: 2041019025
-Section: 2041006
+- Name: Aditya Arpan Sahoo
+- Branch and Year: Computer Science and Engineering, Second Year
+- Registration Number: 2041019025
+- Section: 2041006
