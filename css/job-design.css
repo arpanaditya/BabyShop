@@ -1,17 +1,33 @@
 body {
 
-    background-image: url("file:///D:/Aditya/Hackathon/Website/Img/nanny.png");
+    background-color:  #f4c4f3;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #fc67fa, #f4c4f3);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #fc67fa, #f4c4f3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    ;
     background-size: contain;
 }
 
-
-
+.container {
+    height: 70rem;
+}
 
 .application{
     background-color: aliceblue;
-    margin:20px 450px;
     line-height: 2.8;
+    position: relative;
+    left: 26rem;
+    display: flex;
+    height: 58rem;
+    width: 27rem;
+}
+
+h1 {
+    text-decoration: underline;
     text-align: center;
+    font-family: 'Nunito';
+}
+.application form {
+    padding-left: 3rem;
 }
 
 .navbar{
