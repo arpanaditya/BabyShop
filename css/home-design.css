@@ -104,6 +104,11 @@ width: 90%;
  display: none;
 }
 
+input[type=text] {
+  height: 2rem;
+  width: 25rem;
+}
+
 /*---------------media query for menu -------------*/
 @media only screen and (max-width: 800px){
  
