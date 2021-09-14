@@ -1,71 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <title>Apply for a Job</title>
-        <link rel="stylesheet" href="../css/job-design.css">
-        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;500;600;700&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-      
 
-    </head>
-    <body bgcolor="pink">
-        <div class="header">
-            <div class="container">
-               <div class="navbar">
-              <div class="logo">
-                <img src="../Img/logo.png" width="125px">
-             
-           </div>
-           <nav>
-            <ul id="MenuItems">
-                <li><a href="../index.html">Home</a></li>
-                <li><a href="job-post.html">Apply for a Job</a></li>
-                <li><a href="about page.html">About Us</a></li>
-                <li><a href="login page.html">Log In or Register</a></li>
-                <li><i class="fa fa-bell"></i></li>
-              </ul>
-           </nav>
-           <img src="../Img/cart.png" width="30px" height="30px">
-           </div>
-                                
-            <div class="application" align="center" background-color="white">
-            <h1 style="color:rgb(14, 4, 3);" align="center"><u><b>Join Us</b></u></h1>
-            <table>
-                <tr>
-                    <td>First Name:<input type="text"></td>
-                </tr>
-                <tr>
-                    <td>Last Name:<input type="text"></td>
-                </tr>
-                <tr>
-                    <td>Email:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp;<input type="text"></td>
-                </tr>
-                <tr>
-                    <td>Phone:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp;<input type="text"></td>
-                </tr>
-                <tr>
-                    <td>Country:&nbsp&nbsp&nbsp&nbsp&nbsp;<input type="text"></td>
-                </tr>
-                <tr>
-                    <td>Upload your resume here:&nbsp&nbsp;<input type="file"></td>
-                </tr>
-                <tr>
-                    <td>Upload any address proof here:&nbsp&nbsp;<input type="file"></td>
-                </tr>
-                <tr>
-                    <td>(*Your cv should include basics details and informations about you so that the person who will be hiring you
-                    will get to know about you. It is mandatory.)</td>
-                </tr>
-                <tr>
-                    <td><a href="D:\Aditya\Hackathon\Website\job submit page\submitted-page.html"><input type="button" value="Submit"></a></td>
-                </tr>
-            </table>
-        
-        </div>
-            
+<head>
+    <meta charset="utf-8">
+    <title>Apply for a Job</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/job-design.css">
+    <link rel="shortcut icon" href="../Img/logo.png" type="image/x-icon">
 
-        
-        
-    </body>
+</head>
+
+<body>
+    <div class="header">
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <img src="../Img/logo.png" width="125px">
+
+                </div>
+                <nav>
+                    <ul id="MenuItems">
+                        <li><a href="../index.html">Home</a></li>
+                        <li><a href="job-post.html">Apply for a Job</a></li>
+                        <li><a href="about page.html">About Us</a></li>
+                        <li><a href="login page.html">Log In or Register</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+            <h1>Enter Your Details Here</h1>
+            <div class="application">
+                <form>
+                    <div class="mb-3">
+                        <label for="formGroupExampleInput" class="form-label">First Name</label>
+                        <input type="text" class="form-control" id="formGroupExampleInput">
+                    </div>
+                    <div class="mb-3">
+                        <label for="formGroupExampleInput2" class="form-label">Last Name</label>
+                        <input type="text" class="form-control" id="formGroupExampleInput2">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label">Email address</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                        <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label">Phone Number</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label">Gender</label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                        <label class="form-check-label" for="flexRadioDefault1">
+                            Male
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2"
+                            checked>
+                        <label class="form-check-label" for="flexRadioDefault2">
+                            Female
+                        </label>
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label">Country</label>
+                        <select class="form-select" aria-label="Default select example">
+                            <option value="none">Select Country</option>
+                            <option value="australia">Australia</option>
+                            <option value="canada">Canada</option>
+                            <option value="usa">USA</option>
+                            <option value="russia">Russia</option>
+                            <option value="japan">Japan</option>
+                            <option value="india">India</option>
+                            <option value="china">China</option>
+                        </select>
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label">Upload CV</label>
+                        <input type="file" class="form-control" id="inputGroupFile02">
+                    </div>
+                    <button type="submit" class="btn btn-primary"><a href="submitted-page.html"
+                            style="color: white;">Submit</a></button>
+                </form>
+
+            </div>
+
+
+
+
+</body>
+
 </html>
