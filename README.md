@@ -1,7 +1,7 @@
 # ITER-solution-challenge
 ## GDSC ITER
 
-### About
+### About BabyShop
 - This project is created by Aditya Arpan for ITER-Solution challenge organised by GDSC ITER. 
 - This project is a simple E-Commerce website created by HTML and CSS. 
 - The aim of this project is to provide baby products on rent.
