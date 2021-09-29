@@ -1,4 +1,5 @@
 <h2 align="center"> Contributing Guidelines </h2>
+
 ## Basics of Git and GitHub
 
 ### Git & GitHub
