@@ -8,6 +8,7 @@ body{
 }
 .navbar{
        display: flex;
+      
        align-items: center;
        padding: 20px;
 }
@@ -26,7 +27,7 @@ nav ul li {
 }
 a{
  text-decoration: none;
- color: #555;
+ color: rgb(255, 255, 255);
  
 }
 p{
@@ -69,7 +70,7 @@ p{
    transition: background 0.5s;
 }
 .btn:hover{
- background: #563434;
+ background: #42d4a4;
 }
 .header{
  background: radial-gradient(#fff,#ffd6d6);
