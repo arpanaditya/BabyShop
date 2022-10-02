@@ -27,8 +27,23 @@ nav ul li {
 }
 a{
  text-decoration: none;
- color: rgb(255, 255, 255);
- 
+ color: #000;
+}
+.navlink{
+  padding-right: 8px;
+  padding-left: 8px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+.navlink:hover{
+  padding-right: 8px;
+  padding-left: 8px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  background: #ffd6d6;
+  border-radius: 6px;
+  scale: 1.05;
+  transition: all 0.1s linear ;
 }
 p{
  color: #555;
