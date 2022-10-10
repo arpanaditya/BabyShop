@@ -23,6 +23,8 @@ h1 {
 
 }
 
+
+
 nav {
   flex:auto;
  text-align: center;
@@ -69,21 +71,23 @@ a{
 
 .midd {
     font-size: xx-large;
+    
 
 }
 
 .mid p {
+  padding: 1.5rem;
 background-color: rgba(12, 162, 221, 0.507);
 font-size: x-large;
 
 }
 
 .downn {
-    background-color: rgba(21, 218, 103, 0.87);
     font-size: xx-large;
 }
 
 .down p {
+  padding: 1.5rem;
 background-color: rgba(21, 218, 103, 0.87);
 font-size: x-large;
 
