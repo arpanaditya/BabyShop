@@ -156,10 +156,12 @@ input[type=text] {
 /*--------------feature product---------------*/
 .col-4{
  flex-basis: 25px;
- padding: 10px;
+ padding: 15px;
  min-width: 200px;
+ border-radius: 10px;
  margin-bottom: 50px;
  transition: transform 0.5s;
+ box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 .col-4 img{
  width: 100%;
