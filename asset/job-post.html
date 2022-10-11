@@ -24,51 +24,52 @@
                 </div>
                 <nav>
                     <ul id="MenuItems">
-                        <li><a href="../index.html">Home</a></li>
-                        <li><a href="job-post.html">Apply for a Job</a></li>
-                        <li><a href="about page.html">About Us</a></li>
-                        <li><a href="login page.html">Log In or Register</a></li>
+                        <li class="navlink"><a href="../index.html" >Home</a></li>
+                        <li class="navlink"><a href="job-post.html" >Apply for a Job</a></li>
+                        <li class="navlink"><a href="about page.html" >About Us</a></li>
+                        <li class="navlink"><a href="login page.html" >Log In or Register</a></li>
                     </ul>
                 </nav>
             </div>
 
-            <h1>Enter Your Details Here</h1>
+            <div class="parent">
+                <h1 style="text-align: center;">Enter Your Details Here</h1>
             <div class="application">
                 <form>
-                    <div class="mb-3">
+                    <div class="mb-2">
                         <label for="formGroupExampleInput" class="form-label">First Name</label>
                         <input type="text" class="form-control" id="formGroupExampleInput">
                     </div>
-                    <div class="mb-3">
+                    <div class="mb-2">
                         <label for="formGroupExampleInput2" class="form-label">Last Name</label>
                         <input type="text" class="form-control" id="formGroupExampleInput2">
                     </div>
-                    <div class="mb-3">
+                    <div class="mb-2">
                         <label for="exampleInputEmail1" class="form-label">Email address</label>
                         <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
                         <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
                     </div>
-                    <div class="mb-3">
+                    <div class="mb-2">
                         <label for="exampleInputEmail1" class="form-label">Phone Number</label>
                         <input type="email" class="form-control" id="exampleInputEmail1">
                     </div>
-                    <div class="mb-3">
+                    <div class="mb-2">
                         <label for="exampleInputEmail1" class="form-label">Gender</label>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                            <label class="form-check-label" for="flexRadioDefault1">
+                                Male
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                            <label class="form-check-label" for="flexRadioDefault2">
+                                Female
+                            </label>
+                        </div>
                     </div>
-                    <div class="form-check">
-                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-                        <label class="form-check-label" for="flexRadioDefault1">
-                            Male
-                        </label>
-                    </div>
-                    <div class="form-check">
-                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2"
-                            checked>
-                        <label class="form-check-label" for="flexRadioDefault2">
-                            Female
-                        </label>
-                    </div>
-                    <div class="mb-3">
+                    
+                    <div class="mb-2">
                         <label for="exampleInputEmail1" class="form-label">Country</label>
                         <select class="form-select" aria-label="Default select example">
                             <option value="none">Select Country</option>
@@ -81,7 +82,7 @@
                             <option value="china">China</option>
                         </select>
                     </div>
-                    <div class="mb-3">
+                    <div class="mb-2">
                         <label for="exampleInputEmail1" class="form-label">Upload CV</label>
                         <input type="file" class="form-control" id="inputGroupFile02">
                     </div>
@@ -89,6 +90,7 @@
                             style="color: white;">Submit</a></button>
                 </form>
 
+            </div>
             </div>
 
 

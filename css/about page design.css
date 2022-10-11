@@ -23,7 +23,11 @@ h1 {
 
 }
 
-
+.navbar{
+  display: flex;
+    align-items: center;
+    padding: 20px;
+}
 
 nav {
   flex:auto;

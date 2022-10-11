@@ -1,9 +1,9 @@
 body {
 
-    background-color:  #f4c4f3;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to left, #fc67fa, #f4c4f3);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to left, #fc67fa, #f4c4f3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    ;
+    background: radial-gradient(#fff,#ffd6d6);  /* fallback for old browsers */
+    /*background: -webkit-linear-gradient(to left, #fc67fa, #f4c4f3); Chrome 10-25, Safari 5.1-6 */
+    /*background: linear-gradient(to left, #fc67fa, #f4c4f3);  W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
     background-size: contain;
 }
 
@@ -11,14 +11,18 @@ body {
     height: 70rem;
 }
 
+.parent{
+    display: grid;
+    place-items: center;
+}
+
 .application{
-    background-color: aliceblue;
+    background-color: rgb(242 219 219);
     line-height: 2.8;
     position: relative;
-    left: 26rem;
     display: flex;
-    height: 58rem;
-    width: 27rem;
+    padding: 30px 50px;
+    border-radius: 10px;
 }
 
 h1 {
@@ -27,7 +31,29 @@ h1 {
     font-family: 'Nunito';
 }
 .application form {
-    padding-left: 3rem;
+
+}
+
+.form-check-label{
+    margin-top: -20px !important;
+}
+
+.navlink{
+  padding-right: 8px;
+  padding-left: 8px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+.navlink:hover{
+  padding-right: 8px;
+  padding-left: 8px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  background: #ffd6d6;
+  border-radius: 6px;
+  color: #000;
+  scale: 1.05;
+  transition: all 0.1s linear ;
 }
 
 .navbar{
@@ -54,9 +80,13 @@ nav ul li {
 }
 
 a{
-    text-decoration: none;
-    color: #555;
+ text-decoration: none;
+ color: #000 !important;
 }
+a:link {
+  color: #000;
+}
+
 
 .container{
     max-width: 1300px;
