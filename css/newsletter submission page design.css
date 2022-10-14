@@ -1,0 +1,83 @@
+body {
+    background-color: rgb(233, 188, 92);
+    margin:20px 450px;
+    line-height: 1;
+    background-image: url("file:///D:/Aditya/Hackathon/Website/Img/home2n.png");
+    background-size: cover;
+    
+    
+}
+
+.logo {
+
+    float: left;
+    margin-left: 0%;
+}
+
+header {
+    font-size: xx-large;
+    font-weight: bolder;
+    text-align: center;
+    flex-direction: row;
+    margin-top: 150px;
+    color: white;
+
+
+}
+
+p {
+    text-align: center;
+    font-size: x-large;
+    color: rgba(139, 33, 6, 0.973);
+    margin-top: 100px;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+nav {
+    flex:1;
+   text-align: center;
+   
+}
+
+nav ul {
+    display: inline-block;
+    list-style-type: none;
+    float: right;
+}
+
+nav ul li {
+    display: inline-flexbox;
+    margin-right: 0px;
+    font-family: 'Poppins', sans-serif;
+    
+    
+}
+
+a{
+    text-decoration: none;
+    color: rgb(2, 37, 83);
+}
+
+.container{
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: spsce-around;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: normal;
+}

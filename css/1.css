@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+ font-family: 'Poppins', sans-serif;
+}
+.navbar{
+       display: flex;
+       align-items: center;
+       padding: 20px;
+}
+nav {
+ flex:1;
+ text-align: right;
+
+
+}
+nav ul {
+ display: inline-block;
+ list-style-type: none;
+ float: none;
+ padding: 4%;
+
+}
+nav ul li {
+ display: inline-block;
+ margin-right: 20px;
+
+
+}
+a{
+ text-decoration: none;
+ color: #555;
+
+ 
+}
+.text h1 {
+    text-align: right;
+}
+.whole {
+    align-items: center;
+    margin-left: 500px;
+}
+input {
+    height: 50px;
+    width: 500px;
+    
+}
+

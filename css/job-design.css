@@ -1,0 +1,103 @@
+body {
+
+    background: radial-gradient(#fff,#ffd6d6);  /* fallback for old browsers */
+    /*background: -webkit-linear-gradient(to left, #fc67fa, #f4c4f3); Chrome 10-25, Safari 5.1-6 */
+    /*background: linear-gradient(to left, #fc67fa, #f4c4f3);  W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    background-size: contain;
+}
+
+.container {
+    height: 70rem;
+}
+
+.parent{
+    display: grid;
+    place-items: center;
+}
+
+.application{
+    background-color: rgb(242 219 219);
+    line-height: 2.8;
+    position: relative;
+    display: flex;
+    padding: 30px 50px;
+    border-radius: 10px;
+}
+
+h1 {
+    text-decoration: underline;
+    text-align: center;
+    font-family: 'Nunito';
+}
+.application form {
+
+}
+
+.form-check-label{
+    margin-top: -20px !important;
+}
+
+.navlink{
+  padding-right: 8px;
+  padding-left: 8px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+.navlink:hover{
+  padding-right: 8px;
+  padding-left: 8px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  background: #ffd6d6;
+  border-radius: 6px;
+  color: #000;
+  scale: 1.05;
+  transition: all 0.1s linear ;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+nav {
+    flex:1;
+   text-align: right;
+   
+}
+
+nav ul {
+    display: inline-block;
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+a{
+ text-decoration: none;
+ color: #000 !important;
+}
+a:link {
+  color: #000;
+}
+
+
+.container{
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: spsce-around;
+}
