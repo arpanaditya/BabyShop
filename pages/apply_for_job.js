@@ -5,6 +5,7 @@ const Apply_for_job = () => {
   const [registation, setRegistation] = useState({
     username: "",
     email: "",
+    phoneNumber: ""
   });
 
   const handleInput = (e) => {
@@ -28,7 +29,7 @@ const Apply_for_job = () => {
 
 
 {/* ----------------------------------------------------------------------------------- */}
-            <form action=''>
+            <form className='apply_job_form' action=''>
               <p >First Name</p>
               <input 
               className='input_res'
@@ -41,7 +42,7 @@ const Apply_for_job = () => {
               type="text" 
                />
 <br/>
-              <p>Email *</p>
+              <p>Email</p>
               <input
                 className='input_res'
                 name="email"
@@ -55,30 +56,36 @@ const Apply_for_job = () => {
               <input
               className='input_res'
                 type="number"
+                name='phoneNumber'
+                value={registation.phoneNumber}
+                onChange={handleInput}
                />
 
 <br/>
               <p >Gender</p>
 
+              <div>
               <input 
               className='input_res'
               type="radio" 
-              name="flexRadioDefault" />
-              <label >
+              id='male'
+              name="gender" />
+              <label htmlFor='male'>
                 Male
               </label>
 
 
-              <input type="radio" name="flexRadioDefault" />
-              <label >
+              <input type="radio" id='female' name="gender" />
+              <label htmlFor='female'>
                 Female
               </label>
+              </div>
 
 
 <br/>
+              <label htmlFor='country'>Country</label>
               <div >
-                <label>Country</label>
-                <select  className='input_res bgw' aria-label="Default select example">
+                <select style={{width: "100%"}} id='country' className='input_res bgw' aria-label="Default select example">
                   <option value="none">Select Country</option>
                   <option value="australia">Australia</option>
                   <option value="canada">Canada</option>
