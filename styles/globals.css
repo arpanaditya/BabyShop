@@ -396,6 +396,17 @@ a {
   flex-direction: column;
 }
 
+input[type="radio"] {
+  height: 1.2rem;
+  width: 1.2rem;
+  margin-right: 0.5rem;
+}
+
+.radio_container {
+  display: flex;
+  align-items: center;
+}
+
 .ch_contain {
   display: flex;
   justify-content: center;

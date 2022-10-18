@@ -64,21 +64,20 @@ const Apply_for_job = () => {
 <br/>
               <p >Gender</p>
 
-              <div>
-              <input 
-              className='input_res'
-              type="radio" 
-              id='male'
-              name="gender" />
-              <label htmlFor='male'>
-                Male
-              </label>
+              <div className='radio_container'>
+                <input
+                type="radio" 
+                id='male'
+                name="gender" />
+                <label htmlFor='male'>
+                  Male
+                </label>
 
 
-              <input type="radio" id='female' name="gender" />
-              <label htmlFor='female'>
-                Female
-              </label>
+                <input type="radio" id='female' name="gender" />
+                <label htmlFor='female'>
+                  Female
+                </label>
               </div>
 
 
