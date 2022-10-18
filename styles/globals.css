@@ -377,11 +377,36 @@ a {
   /* text-align: center; */
 }
 .input_res {
-  padding: 0.8rem 3rem;
+  padding: 0.8rem 1rem;
   margin-bottom: 1rem;
   border: none;
   border-radius: 1rem;
 }
+
+.input_res::file-selector-button {
+  font-weight: bold;
+  color: #f07666;
+  padding: 0.5em;
+  border: thin solid grey;
+  border-radius: 3px;
+}
+
+.apply_job_form {
+  display: flex;
+  flex-direction: column;
+}
+
+input[type="radio"] {
+  height: 1.2rem;
+  width: 1.2rem;
+  margin-right: 0.5rem;
+}
+
+.radio_container {
+  display: flex;
+  align-items: center;
+}
+
 .ch_contain {
   display: flex;
   justify-content: center;
