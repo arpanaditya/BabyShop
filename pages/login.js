@@ -36,7 +36,7 @@ const Register = () => {
 							className='input_res'
 								name="password"
 								onChange={handleInput}
-								placeholder=''
+								placeholder='Enter your password'
 								value={registation.password}
 								type="password"
 							></input> {/*password*/}
