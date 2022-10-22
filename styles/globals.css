@@ -367,7 +367,7 @@ a {
 /* //!-------------------------------------------------------------------- */
 /* //!-------------------login/registation-------------------------------- */
 .res_mr {
-  padding-top: 7rem;
+  padding-top: 16%;
 }
 .c_contain {
   /* border: #ff523b solid; */
@@ -377,6 +377,7 @@ a {
   /* text-align: center; */
 }
 .input_res {
+  width: 20vw;
   padding: 0.8rem 1rem;
   margin-bottom: 1rem;
   border: none;
@@ -416,6 +417,7 @@ input[type="radio"] {
   background: #FFD8D8;
   padding: 4rem 2.5rem;
   border-radius: 1rem;
+  box-shadow: 0 10px 40px #dbcbcb, 0 0 0 20px #ffefefeb;
 }
 .ch_contain p {
   color: #3d3d3d;
@@ -435,6 +437,7 @@ input[type="radio"] {
   margin-top: -1.5rem;
 }
 #res_btn {
+  cursor: pointer;
   padding: 0.8rem 5rem;
   /* margin-left: 15%; */
   /* width: 85%; */
@@ -442,7 +445,7 @@ input[type="radio"] {
   background: #ffa296;
   border: none;
   border-radius: 1rem;
-  margin: 1.8rem 0rem 0.5rem 0rem;
+  margin: 0.8rem 0rem 0.5rem 0rem;
   font-weight: 600;
   font-size: 1.2rem;
 }
