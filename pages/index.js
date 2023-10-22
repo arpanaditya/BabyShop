@@ -17,6 +17,7 @@ export default function Home() {
     <>
       <Head>
         <title>Welcome to BabyShop</title>
+        <link rel="icon" type="image/png" sizes="32x32" href="public/logo.png">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
         <link rel="shortcut icon" href="Img/logo.png" type="image/x-icon" />
       </Head>
